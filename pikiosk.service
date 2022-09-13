@@ -1,0 +1,12 @@
+[Unit]
+Description=PiKiosk Service keeps pikiosk running if it fails
+After=multi-user.target
+
+[Service]
+Type=idle
+ExecStart=/usr/bin/python /home/pi/src/pikiosk/pikiosk.py
+Restart=always
+KillSignal=SIGINT
+
+[Install]
+WantedBy=multi-user.target

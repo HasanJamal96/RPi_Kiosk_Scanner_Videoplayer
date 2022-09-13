@@ -1,0 +1,10 @@
+{
+    "video_path":"/media/usb/videos/",
+    "loop_video_path":"/media/usb/loops/",
+    "no_video_image_path":"/home/pi/src/pikiosk/NoMatch.jpg",
+    "no_video_video_path":"/home/pi/src/pikiosk/NoMatch.mp4",
+    "no_loop_image_path":"/home/pi/src/pikiosk/NoLoop.jpg",
+    "no_loop_video_path":"/home/pi/src/pikiosk/NoLoop.mp4",
+    "no_files_image_path":"/home/pi/src/pikiosk/NoFiles.jpg",
+    "background_path":"/home/pi/src/pikiosk/background.jpg"
+}
